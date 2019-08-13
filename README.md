@@ -7,7 +7,13 @@ I publish the code for your hown enjoyement!
 
 There is no library to add.
 Simply create a bin directory and run cmake.
-`mkdir bin;cmake ..;make;`
+```
+mkdir bin;
+cmake ..;
+make;
+```
 
 You can generate a debian package with cpack.
-`cpack -G DEB`
+```
+cpack -G DEB
+```
